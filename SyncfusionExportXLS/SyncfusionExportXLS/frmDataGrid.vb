@@ -36,6 +36,7 @@ Public Class frmDataGrid
     End Sub
     ' / --------------------------------------------------------------------------------
     Private Sub frmDataGrid_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Me.Text ="GridGroupingControl Converter to Excel - coDe bY: Thongkorn Tubtimkrob"
         Call ConnectDataBase()
         '//
         Call RetrieveData()

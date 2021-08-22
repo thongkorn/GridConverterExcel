@@ -142,7 +142,7 @@ Public Class frmDataGrid
         Dim sWatch As New Stopwatch()
         ' Declare Save File Dialog Control @Run Time 
         Dim dlgExcelFile As SaveFileDialog = New SaveFileDialog
-        ' / Initialize Open File Dialog
+        ' / Initialize Save File Dialog
         With dlgExcelFile
             .InitialDirectory = MyPath(Application.StartupPath)
             .Title = "Save As Excel File"
